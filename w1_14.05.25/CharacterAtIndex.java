@@ -1,3 +1,9 @@
+//1.Write a Java program to get the character at the given index within the string. 
+//Example
+//Original String = Software Developer!                                                                           
+//The character at position 0 is S 
+//The character at position 10 is e
+
 import java.util.Scanner;
 
 public class CharacterAtIndex {
