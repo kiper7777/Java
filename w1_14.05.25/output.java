@@ -16,7 +16,7 @@ public class output {
         System.out.println(namestr);
 
         int len = namestr.length();
-        System.out.println(namestr);
+        System.out.println(len);
 
         // concatination
         String fName = "John";

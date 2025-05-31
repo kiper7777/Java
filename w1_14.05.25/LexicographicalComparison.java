@@ -1,4 +1,4 @@
-// Write a Java program to compare two strings lexicographically.
+// 2.Write a Java program to compare two strings lexicographically.
 // Two strings are lexicographically(AsCII value) equal if they are the same length and contain the same characters in the same positions.
 
 // Hint: you can use the Java String compareTo() Method for this assignment.
