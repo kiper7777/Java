@@ -70,7 +70,29 @@ public class controlProg2 {
         n[0] = new int[2];
         n[1] = new int[3];
 
-        System.out.println("");
+        // Вывод массива number
+        System.out.print("number: ");
+        for (int num : number) {
+            System.out.print(num + " ");
+        }
+        System.out.println();
+
+        // Вывод массива name
+        System.out.print("name: ");
+        for (String s : name) {
+            System.out.print(s + " ");
+        }
+        System.out.println();
+
+        // Вывод двумерного массива n
+        System.out.println("n:");
+        for (int i = 0; i < n.length; i++) {
+            for (int r = 0; r < n[i].length; r++) {
+                n[i][r] = i + r; // Пример заполнения массива значениями
+                System.out.print(n[i][r] + " ");
+            }
+            System.out.println();
+        }
 
     }
 }
